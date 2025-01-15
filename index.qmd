@@ -6,53 +6,38 @@ date: 2025-01-15
 
 format:
   revealjs: 
+    transition: fade
+    auto-animate-duration: 2
     theme: custom.scss
     width: 1600
     height: 900
 ---
 
-## Example slide
-### This is a subtitle
+# Heading 1
+Content
 
-Here we have some text that may run over several lines of the slide frame,
-depending on how long it is.
+## Heading 2
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla pharetra tellus, pretium consectetur nisl malesuada quis. Morbi id lorem maximus odio viverra consectetur nec nec mi. Vestibulum ac est eu risus consectetur rutrum. Mauris vel est sit amet diam auctor dapibus non vitae nibh. Vivamus nec blandit nulla, et suscipit metus. Donec vel scelerisque libero. Quisque vestibulum sodales lacus, ut rutrum quam ultricies at. Praesent in libero dictum ipsum placerat posuere eget non eros. Curabitur semper non felis scelerisque porta. Etiam ut orci eu quam auctor egestas. Duis ut felis posuere lacus scelerisque rhoncus eget sed augue. Phasellus a facilisis enim. 
 
-- first item 
-    - A sub item
+### Heading 3
 
-Next, we'll brief review some theme-specific components.
+- bullet
+- points
+  - here
+- very nice
 
-- Note that _all_ of the standard Reveal.js
-[features](https://quarto.org/docs/presentations/revealjs/)
-can be used with this theme, even if we don't highlight them here.
+## Heading
+### Heading
+- read [The Quarto documentation](https://quarto.org/docs/presentations/revealjs/) for more information on how to use reveal.js
+- $\sum_{start}^{end} e=mc^2$
 
-## Additional theme classes
-Special classes for emphasis
-- `.alert` class for default emphasis, e.g. [important note]{.alert}.
-- `.fg` class for custom colour, e.g. [important note]{.fg style="--col: #e64173"}.
-- `.bg` class for custom background, e.g. [important note]{.bg style="--col: #e64173"}.
+## Infoblocks
+### Example
 
-Cross-references
+This is a nice example for an ...
 
-- `.button` class provides a Beamer-like button, e.g.
-[[Summary]{.button}](#sec-summary)
+::: {.callout-note}
+## Title of Tip
 
-
-# Code
-
-```{r}
-#| echo: true
-fun <- function(X){
-  return(X*X)
-}
-```
-
-
-# Summary {#sec-summary}
-
-::: {.incremental}
-- Eat spaghetti
-- Drink wine
+This is a callout with a title.
 :::
-
-
